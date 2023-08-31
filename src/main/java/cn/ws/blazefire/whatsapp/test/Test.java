@@ -1,0 +1,21 @@
+package cn.ws.blazefire.whatsapp.test;
+
+import cn.ws.blazefire.whatsapp.advertiseOne.TokenBean;
+import com.alibaba.fastjson.JSON;
+
+/**
+ * TODO
+ *
+ * @author : Host-424
+ * @date Date : 2022-07-29 14:20
+ */
+public class Test {
+    public static void main(String[] args) {
+        String json = "{\"a\":\"rO0ABXVyAAJbQqzzF_gGCFTgAgAAeHAAAAAqAAIYl35izinukDnBJHJwFDoCEjq3PAmE5P3RrwJVGEJUE5QLdI4JBjiA\",\"b\":\"rO0ABXNyAA9jb20ud2hhdHNhcHAuTWXk6K3RrOBlqgIAA0wAAmNjdAASTGphdmEvbGFuZy9TdHJpbmc7TAAJamFiYmVyX2lkcQB-AAFMAAZudW1iZXJxAH4AAXhwdAACNTV0AAw1NTczODE0Njc1MTV0AAs3Mzk4MTQ2NzUxNQ\",\"c\":\"PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnIHN0YW5kYWxvbmU9J3llcycgPz4KPG1hcD4KICAgIDxzdHJpbmcgbmFtZT0ic2VydmVyX3N0YXRpY19wdWJsaWMiPnFKV3ZTdHROb3BxZ1EyQ2dYWVRjNGptU1VLV2QxUnYyUVRNYlF5WXBLd1k8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iY2xpZW50X3N0YXRpY19rZXlwYWlyX3B3ZF9lbmMiPlsyLCZxdW90O2h1eFNWakNPVTVpdkNnUjZNTVdVOWF2VEZVR21nUnNDa3NBc0xkWXpzKzNQbWRsRWRuVERmUjZPMHg5TE1cL1VTR0VVanNtNUZDQTVBbjBRNUM3Skh4dyZxdW90OywmcXVvdDtcLzJMUFgxUzF6Q3JUT29ZV0xvbEhOZyZxdW90OywmcXVvdDtjcndhRFEmcXVvdDssJnF1b3Q7YXZNRG02R3JXRU52RVFFeEFHTGRHZyZxdW90O108L3N0cmluZz4KICAgIDxib29sZWFuIG5hbWU9ImNhbl91c2VyX2FuZHJvaWRfa2V5X3N0b3JlIiB2YWx1ZT0idHJ1ZSIgLz4KPC9tYXA-Cg\",\"d\":\"MDVFM0IyNzI3OEFGMDAyMEQyMDQ1M0QzRjVFRTZFM0VDNTVFQTNDMUY3NTEzMkJFNTJFOEVDQTREQzIyMkY1RTcz\",\"e\":\"OTgyRkY1NDdGQjU2QTVEMjRERkEzRkRDQTJGM0ZEQUM1OEMyQkVFN0RFMTFGQkQzMEVCREUxRTUzQTcyQUQ2OA\",\"f\":\"1421328445\",\"g\":\"MDgwMDEyMjEwNThDRUVFREU5Qzc3OEU4QzFCNEZBQkFEMjIwMDM4ODE5MzNEN0FBRUNEQUQ2RjAwMjQwQUI3Q0E1OEQ0REI2MzIxQTIwRTg1QUM5Mjg4RjUyM0JCQTk4MzE4ODBGRkQ0NUNGMDc4NjU5NTk4QUNGQzQ2ODE3Q0MzOTY5REQ5RTcyNEU0OTIyNDA4NUNDRUU1RUU3RjIzODhEM0VFMEFEMjc3RjM0NzM4QThFN0M2NzIxRjk1NERDQzI3Q0VCMUI0RkE1ODk0QTc4MTFEODIyQTJEQ0U0MUU4MjFFQUUwRTc0NjYyNDEzMjFDNDgyM0M2M0ZFNjFBNEEzRkZCMzA0NTkyQzE3RkEwQzI5MTM3OTkzMjc4MjAxMDAwMA\",\"h\":\"alps\",\"i\":\"a82c1p_dx_p63\",\"j\":\"A82C5P_DX_P63_S21U_WELCOME_QS_BT15_ER245T_M01_20211026_1814\",\"k\":2147483647,\"l\":2147483647,\"m\":\"armeabi-v7a\",\"n\":55738146751,\"o\":\"2.22.15.74\",\"p\":\"\",\"q\":\"\",\"x\":\"\",\"y\":\"\",\"z\":\"\",\"xa\":\"\",\"xb\":0,\"xc\":\"\",\"xd\":\"\",\"aa\":\"BR\",\"ab\":\"S21U\",\"ac\":\"alps\",\"ad\":\"ae90c07f0d8c7b9e\",\"ae\":\"af296bd8-fcb0-48f7-8204-f1d25da473ee\",\"af\":\"10.0\",\"ag\":\"\",\"ah\":\"128.201.97.185\"}";
+
+        TokenBean tokenBean = JSON.parseObject(json,TokenBean.class);
+
+
+        System.out.println(1);
+    }
+}
