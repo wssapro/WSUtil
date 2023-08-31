@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @Author wangshun
  * @create: 2019-12-09 19:19
  */
-public class List {
+public class ListTest {
     public static void main(String[] args) {
         Vector<String> list = new Vector<String>();
         list.add("1");
