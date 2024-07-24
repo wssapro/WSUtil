@@ -8,10 +8,10 @@ package cn.ws.blazefire;
  */
 public class jixiao {
 
-    public static double sum = 350000;
+    public static double sum = 250000;
 
     public static void main(String[] args) {
-        System.out.println(cul(70)/100);
+        System.out.println(cul(75)/100);
     }
 
 

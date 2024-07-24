@@ -31,9 +31,8 @@ public class GreetingServer extends Thread {
     }
 
     public static void main(String[] args) {
-        int port = Integer.parseInt(args[0]);
         try {
-            Thread t = new GreetingServer(port);
+            Thread t = new GreetingServer(18001);
             t.run();
         } catch (IOException e) {
             e.printStackTrace();

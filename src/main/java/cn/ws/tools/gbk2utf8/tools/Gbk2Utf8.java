@@ -15,7 +15,7 @@ public class Gbk2Utf8 {
     public static void main(String[] args) throws Exception {
 
 
-        String srcGbkPath = "D:\\Blazefire\\ADTraffic\\RT_IP\\Socks5Server\\src\\main";
+        String srcGbkPath = "D:\\Blazefire\\ADTraffic\\PT_RTRatel\\RTTask\\Server\\RTTaskModule\\src\\com";
         String dstUtf8Path = "C:\\Users\\Host-424\\Desktop\\aaa";
         String extension = "java";
         if (args.length > 2) {

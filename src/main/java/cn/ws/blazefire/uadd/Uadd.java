@@ -43,25 +43,33 @@ public class Uadd {
 
     public static void get() {
         Request request = new Request();
-        request.apikey = "Dyz4YRUZTSNm2jNu";
+        // request.apikey = "ZNW5p78u3mMPw8LX";
+        request.apikey = "lIoP23Q2LgsWhBQQ";
         request.cnt = 1;
         request.country = "IN";
         request.t = System.currentTimeMillis();
-        request.sig = getSig("ghFOvSheV53gokCL", request.apikey, request.country, request.t);
+        request.sig = getSig("gSNKCN8daNMYaqvp", request.apikey, request.country, request.t);
 
-        // String url = "http://180.178.39.124:10092/udaa/api/line/pull/ifetnt?"
+        String url = "http://180.178.39.124:10092/udaa/api/tiktok1/pull/uk4jfn?"
+        // String url = "http://180.178.39.124:10092/udaa/api/telegram/pull/ocougq?"
         // String url = "http://180.178.39.124:10092/udaa/api/wa/yowhatsapp/pull/tujjxt?"
         // String url = "http://180.178.39.124:10092/udaa/api/wa/pull/6fogoz?"
         // String url = "http://180.178.39.124:10092/udaa/api/wa/pull/4ni6zt?"
-        String url = "http://180.178.39.124:10092/udaa/api/wa/gbwhatsapp3/pull/qmlxfs?"
+        // String url = "http://180.178.39.124:10092/udaa/api/wa/gbwhatsapp3/pull/qmlxfs?"
+        // String url = "http://180.178.39.124:10092/udaa/api/fb/lite/pull/qvuxkx?"
+        // String url = "http://180.178.39.124:10092/udaa/api/viber/pull/xixsbz?"
         // String url = "http://localhost:8080/udaa/api/wa/gbwhatsapp3/pull/qmlxfs?"
+        // String url = "http://localhost:8080/udaa/api/telegram/pull/ocougq?"
                 + "apikey=" + request.apikey
                 + "&country=" + request.country
                 + "&t=" + request.t
                 + "&sig=" + request.sig
                 + "&used=" + 0
                 + "&cnt=" + request.cnt;
+
+        long l = System.currentTimeMillis();
         String s = HttpClientUtil.doGet(url);
+        System.out.println(System.currentTimeMillis() - l);
         JSONObject jsonObject = JSON.parseObject(s);
         System.out.println(s);
         // WriteLog.write("C:\\Users\\Host-424\\Desktop\\a.txt", s, true);

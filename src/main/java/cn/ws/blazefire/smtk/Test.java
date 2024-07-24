@@ -1,5 +1,14 @@
 package cn.ws.blazefire.smtk;
 
+import cn.ws.tools.ReadLog;
+import cn.ws.tools.WriteLog;
+import jodd.util.StringUtil;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * TODO
  *
@@ -10,7 +19,12 @@ public class Test {
     public static void main(String[] args) {
 
 
-        System.out.println(getModTableIndex("510897360891445"));
+        System.out.println(getModTableIndex("460072694054679"));
+
+        //
+        // Pattern p = Pattern.compile("^\\+?\\d+$");
+        // Matcher m = p.matcher("1256354");
+        // System.out.println(m.find());
 
 
         // System.out.println("460072694054668".substring(0,3));
@@ -40,8 +54,6 @@ public class Test {
 
 
         System.out.println(reqTime.getHour());
-
-
         System.out.println();*/
     }
 
